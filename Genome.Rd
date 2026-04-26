@@ -1,12 +1,16 @@
-\name{hello}
-\alias{hello}
-\title{Hello, World!}
+\name{avgProteinPerCh}
+\alias{avgProteinPerCh}
+\title{Average Proteins per Chromosome}
 \usage{
-hello()
+avgProteinPerCh(object)
+}
+\arguments{
+  \item{object}{A Genome object}
 }
 \description{
-Prints 'Hello, world!'.
+Calculates the average number of proteins per chromosome.
 }
 \examples{
-hello()
+g <- new("Genome", genomeName="Human", numChromosomes=23, numProteins=20000)
+avgProteinPerCh(g)
 }
