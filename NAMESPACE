@@ -1,2 +1,1 @@
 export(hello)
-remotes::install_github("afrarasheed2005/AfraGenome", force = TRUE)
